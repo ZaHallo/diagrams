@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-12-06T14:39:11.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QtQEADEmlNl3vH6bqFRI" version="22.1.5" type="github">
+  <diagram name="Page-1" id="A_HD9lwuAhTRiuJ7cO_i">
+    <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RC6095rLdkZel_2V-MSr-1" value="Books" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="240" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-2" value="PKBookID&lt;br&gt;name&lt;br&gt;copyright date&lt;br&gt;fiction/nonfiction&lt;br&gt;genre&lt;br&gt;isbn&lt;br&gt;cost" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-1" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-3" value="Author" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="240" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-4" value="PKAuthorID&lt;br&gt;first name&lt;br&gt;last name&lt;br&gt;dob&lt;br&gt;dod&lt;br&gt;website" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-3" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-5" value="Publisher" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="240" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-6" value="publisher name&lt;br&gt;sales rep&lt;br&gt;phone&lt;br&gt;email&lt;br&gt;address1&lt;br&gt;address2&lt;br&gt;city&lt;br&gt;state&lt;br&gt;zip" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-5" vertex="1">
+          <mxGeometry y="50" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-7" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="480" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-8" value="first name&lt;br&gt;last name&lt;br&gt;phone&lt;br&gt;email&lt;br&gt;address" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-7" vertex="1">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-9" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="480" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-10" value="first name&lt;br&gt;last name&lt;br&gt;dob&lt;br&gt;phone&lt;br&gt;email&lt;br&gt;address1&lt;br&gt;address2&lt;br&gt;city&lt;br&gt;state&lt;br&gt;zip&lt;br&gt;position&lt;br&gt;hire date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-9" vertex="1">
+          <mxGeometry y="50" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-11" value="Sale" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="440" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-12" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-11" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-14" value="Author/Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="110" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-15" value="PKFKBookID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-14" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-16" value="Publisher/Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="110" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RC6095rLdkZel_2V-MSr-17" value="PKFKBookID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-16" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
