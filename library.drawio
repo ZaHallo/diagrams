@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T15:39:04.994Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="676Ce_Pa1JNWe_K1OMG2" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T15:40:20.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vwq6RzdPhGc2dW8J0j-z" version="22.1.7" type="github">
   <diagram name="Page-1" id="A_HD9lwuAhTRiuJ7cO_i">
     <mxGraphModel dx="555" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,15 +29,15 @@
           <mxGeometry y="50" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RC6095rLdkZel_2V-MSr-9" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="480" width="160" height="240" as="geometry" />
+          <mxGeometry x="370" y="480" width="160" height="260" as="geometry" />
         </mxCell>
         <mxCell id="RC6095rLdkZel_2V-MSr-10" value="PKEmployeeID&lt;br&gt;first name&lt;br&gt;last name&lt;br&gt;dob&lt;br&gt;phone&lt;br&gt;email&lt;br&gt;address1&lt;br&gt;address2&lt;br&gt;city&lt;br&gt;state&lt;br&gt;zip&lt;br&gt;position&lt;br&gt;hire date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-9" vertex="1">
-          <mxGeometry y="50" width="160" height="190" as="geometry" />
+          <mxGeometry y="50" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="RC6095rLdkZel_2V-MSr-11" value="Sale" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="680" width="160" height="120" as="geometry" />
+        <mxCell id="RC6095rLdkZel_2V-MSr-11" value="Sales" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RC6095rLdkZel_2V-MSr-12" value="FKEmployeeID&lt;br&gt;FKCustomerID&lt;br&gt;FKBookID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-11" vertex="1">
+        <mxCell id="RC6095rLdkZel_2V-MSr-12" value="PKSaleID&lt;br&gt;FKEmployeeID&lt;br&gt;FKCustomerID&lt;br&gt;FKBookID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="RC6095rLdkZel_2V-MSr-11" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
